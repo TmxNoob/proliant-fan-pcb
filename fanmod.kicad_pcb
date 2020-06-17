@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 7)
     (tracks 19)
     (zones 0)
     (modules 5)
@@ -325,6 +325,15 @@
     )
   )
 
+  (gr_text "Made for dl380e :)" (at 81.5 30) (layer F.SilkS) (tstamp 5EE4CBA0)
+    (effects (font (size 0.4 0.5) (thickness 0.1)))
+  )
+  (gr_text tmxpro.fi (at 78 28 270) (layer F.SilkS) (tstamp 5EE4CB9C)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (gr_text "FANMOD 2.0" (at 78 23 270) (layer F.SilkS)
+    (effects (font (size 0.7 0.6) (thickness 0.1)))
+  )
   (gr_line (start 77.5 20) (end 86 20) (layer Edge.Cuts) (width 0.05) (tstamp 5EE4C77E))
   (gr_line (start 77.5 33.5) (end 77.5 20) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 86 33.5) (end 77.5 33.5) (layer Edge.Cuts) (width 0.05))
@@ -350,7 +359,7 @@
   (segment (start 84.875 31) (end 85.456011 30.418989) (width 0.254) (layer F.Cu) (net 4))
   (segment (start 84.875 32.5) (end 84.875 31) (width 0.254) (layer F.Cu) (net 4))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5EE4CBAF) (hatch edge 0.508)
     (connect_pads yes (clearance 0.3))
     (min_thickness 1)
     (fill yes (arc_segments 32) (thermal_gap 2) (thermal_bridge_width 2))

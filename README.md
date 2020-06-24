@@ -1,6 +1,7 @@
 # Proliant fan PCB
 
 Here you can find Kicad Projects for each server the mod supports.
+The PCB-s arent fully tested yet so use at your own risk!
 
 
 

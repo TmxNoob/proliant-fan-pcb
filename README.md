@@ -1,3 +1,5 @@
-# Proliant fan PCB
+# Proliant fan PCB with integrated MCU
 
-Proliant fan mod PCB-s
+THIS BRANCH IS FULLY EXPERIMENTAL AND WILL NOT WORK
+
+I just left it in cuz maybe later will do something with this idea, now this idea wont work as is!
